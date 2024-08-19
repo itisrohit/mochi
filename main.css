@@ -1,3 +1,17 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  
+  
+  
+  }
 
 /* Under this is Rohit's Part  */
 
@@ -35,14 +49,7 @@
 
 
 
-body{
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
 
-
-
-}
 
 #all_content{
 display: flex;
@@ -53,15 +60,6 @@ margin-bottom: 40px;
 padding: 60px 8%;
 margin-right: -130px;
 
-
-
-
-}
-
-*{
-
-margin: 0;
-padding: 0;
 
 }
 
