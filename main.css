@@ -1,3 +1,12 @@
+/* fonts */
+/* mulish font  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap'); 
+
+
+
+
+/* ------------------------------------------- */
+
 *{
 
   margin: 0;
@@ -5,16 +14,27 @@
   
   }
   body{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  
-  
-  
+    font-family: 'Mulish', sans-serif;
+ 
   }
 
 /* Under this is Rohit's Part  */
 
+/* Style for the promotional banner section */
+.promo-bar{
+  position: fixed;
+  background: black;
+  color: white;
+  top: 0;
+  padding: 4px 4px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  width: 100%;
+  text-transform: capitalize;
+  z-index: 1000;
+}
 
 
 
