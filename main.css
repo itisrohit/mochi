@@ -79,7 +79,7 @@ background-color: whitesmoke;
 margin-bottom: 40px;
 padding: 60px 8%;
 margin-right: -130px;
-
+width: 100%;
 
 }
 
@@ -165,3 +165,11 @@ margin-bottom: 15px;
 a{ font-weight: 550;}
 
 
+
+
+.asd{
+       height: 100%;
+       width: 100%;
+
+
+}
