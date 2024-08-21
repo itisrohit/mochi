@@ -90,16 +90,17 @@ a:-webkit-any-link{
   padding: 20px;
 }
 
-.title {
-  font-size: 36px;
+.title1 {
+  font-family: "bebas-neue";
+  font-size: 60px;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 200px;
 }
 
 .categories {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 .category {
@@ -127,15 +128,16 @@ a:-webkit-any-link{
   padding: 40px;
 }
 
-h1 {
-  font-size: 36px;
+.title2 {
+  font-family: "bebas-neue";
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
 .categories-tabs {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .categories-tabs a {
@@ -161,7 +163,7 @@ h1 {
 .categories-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 60px;
 }
 
 .category-card {
@@ -212,16 +214,19 @@ h1 {
   padding: 40px;
 }
 
-h1 {
-  font-size: 36px;
+.title3 {
+  font-family: "bebas-neue";
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
 .bestsellers-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+  gap: 100px;
   margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .product-card {
@@ -234,8 +239,9 @@ h1 {
 }
 
 .product-card img {
+  
   max-width: 100%;
-  border-radius: 8px;
+  border-radius: px;
   margin-bottom: 15px;
 }
 
