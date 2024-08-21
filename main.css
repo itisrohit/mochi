@@ -81,6 +81,97 @@ a:-webkit-any-link{
 
 /* Under this is Sajin's Part */
 
+body {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  
+  background-color: #f9f9f9;
+  font-family:'Mulish',sans-serif ;
+}
+
+.shoe-collection {
+  max-width: 100%;
+  margin:auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.shoe-collection h1 {
+  text-align: center;
+  color: #333;
+  font-weight: 600; 
+  font-size: 2.5rem;
+  font-family: 'Mulish',sans-serif;
+  box-sizing: border-box;
+}
+
+.shoe-collection p {
+  
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #7e7e7e;
+  text-align: left;
+  margin-bottom: 16px;
+  font-family:"Mulish", sans-serif;
+  font-size: 13px;
+ 
+}
+
+.shoe-collection h3 {
+  color: #000000;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.shoe-categories{
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  
+}
+.shoe-styles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ padding: 15px;
+}
+
+.category,
+.style {
+  
+  flex:1;
+  max-width: 25%;
+  margin: 10px;
+  padding:15px;
+  background-color: #f5f5f2;
+  position:relative;
+  
+  
+}
+
+.category h2,
+.style h2 {
+  color: #36c2dd;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.category p,
+.style p {
+  color: #636363;
+  font-family: 'Mulish',sans-serif;
+  font-size: 13px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 
 
