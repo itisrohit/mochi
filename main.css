@@ -63,6 +63,20 @@ a:-webkit-any-link{
   width: 28px;
 
 }
+/* .cart img{
+  border: 2px solid red;
+  width: 10%;
+} */
+ .searchbox > input{
+  border: none;
+  outline: none;
+ }
+ .searchbox{
+  color: #a2a2a2;
+  border: 2px solid #36c2dd;
+  border-left-width: 2px;
+  width: 100%;
+ }
 
 
 
