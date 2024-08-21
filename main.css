@@ -13,6 +13,9 @@
   padding: 0;
   
   }
+  html{
+    overflow-x: hidden;
+  }
   body{
     font-family: 'Mulish', sans-serif;
  
@@ -20,9 +23,18 @@
 
 /* Under this is Rohit's Part  */
 
+.header{
+  background: white;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+  position: fixed;
+  top: 0;
+  padding: 0 0 15px;
+  width: 100%;
+  z-index: 9;
+}
+
 /* Style for the promotional banner section */
 .promo-bar{
-  position: fixed;
   background: black;
   color: white;
   top: 0;
@@ -35,8 +47,22 @@
   text-transform: capitalize;
   z-index: 1000;
 }
+.mochi-logo img{
+  margin-left: 18px;
+  height: 63.63px;
+  width: 215px;
 
+}
 
+a:-webkit-any-link{
+  cursor: pointer;
+}
+
+.login img{
+  height: 28px;
+  width: 28px;
+
+}
 
 
 
@@ -70,16 +96,387 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-#all_content{
-display: flex;
-flex-wrap: wrap;
-margin-top:auto;
-background-color: whitesmoke;
+
+
+
+body{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+
+
+
+}
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+  
+  }
+
+
+
+  #payment-section{
+
+      /* border: black solid 3px; */
+      height: 45%;
+      width: 100%;
+
+      margin-top: 300pt;
+      margin-left: 2px;
+      margin-right: 0;
+   
+      background-color: rgba(240,238,239,255);
+      
+      
+      margin-bottom: 60px;
+
+       font-family: 'Mulish', sans-serif;
+   
+
+
+  }
+
+
+  .payment-info{
+ position: relative;
+    /* border: red solid 5px; */
+
+    height: 30%;
+   
+    display: flex;
+   
+    gap: 30px;
+
+    margin-top: 30px;
+    margin-bottom: -10px;
+    
+  }
+
+  .payment-methods{
+
+    border: green solid 2px;
+
+    height: 70%;
+    width: 25%;
+
+
+
+    margin-left: 15px;
+    margin-top: 7px;
+    
+    
+
+
+
+  }
+
+
+  .p1{
+    margin-left: 10px;
+    margin-top: 2px;
+
+
+  }
+
+
+
+ .return-policy{
+
+    border: green solid 2px;
+    height: 20%;
+    width: 15%;
+
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+
+
+ }
+
+
+
+
+
+ .delivery-info{
+
+    border: green solid 2px;
+    height: 30%;
+    width: 13%;
+
+
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    
+    
+}
+
+
+
+.cash-on-delivery{
+
+    border: green solid 2px;
+    height: 30%;
+    width: 14%;
+    display: flex;
+    align-items: center;
+ }
+ .cash-on-delivery > p{
+    font-size: 13px;
+ }
+
+
+
+
+
+ 
+ .social-media  p{
+    text-align: left;
+    margin-left: 15px;
+
+ }
+
+.img_icon{
+    
+    display: flex;
+    margin-left: 10px;
+    
+
+}
+
+.qqq{
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+ .p2{
+    
+    font-size: 14px;
+     margin-right: 0px;
+    margin-left: 10px;
+    text-align:center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.return-policy , .delivery-info,     .cash-on-delivery{
+    
+    border: 1px solid green;
+    padding: 25px 10px;
+    border-spacing: x;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+ .social-media{
+
+
+    border-spacing: x;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    
+    
+     
+
+    border-left: 3px solid rgba(0, 0, 0, 0.599);
+    height: 60%;
+    width: 14%;
+
+
+    display: flex;
+    flex-direction: column;
+    
+
+ }
+
+
+
+
+
+.img1{
+   margin-left:-20px;
+   
+   height: 170%;
+   width: 30%;
+
+
+     
+}
+
+.img2{
+    margin-left:-20px;
+    height: 140%;
+    width: 30%;
+
+}
+
+
+.img3{
+
+    height: 140%;
+    width: 30%;
+
+}
+
+.p3{  
+
+    margin-right: 0px;
+}
+
+
+
+
+
+/*
+.aa{
+
+   
+    width: 20px;
+}
+
+.bb{
+      height:100%;
+      width: 150%;
+
+}
+
+.aab{ height: 170%;
+width: 20%;
+
 margin-bottom: 40px;
-padding: 60px 8%;
-margin-right: -130px;
-width: 100%;
+
+
+}
+
+*/
+
+
+
+.social-media{
+    display: flex;
+
+}
+
+.social-media img {
+    width: 34px; 
+    height: 32px; 
+    margin: 0 5px;
+   
+}
+
+.social-media a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.all_content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:0px;
+    background-color: rgba(240,238,239,255);
+    margin-bottom: 40px;
+   padding: 30px 8%;
+    margin-right: 0;
+
+margin-left: 30px;
+
+
+}
+
+*{
+
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -100,8 +497,8 @@ font-size: 12px;
 
 
 .all_p{
-font:Mulish;
-font-family: Sans-serif;
+    font:Mulish;
+    font-family: Sans-serif;
 font-size: 15px;
 
 
@@ -112,9 +509,9 @@ font-size: 15px;
 }
 
 ul li a{ 
-text-decoration: none;
-color: black;
-
+    text-decoration: none;
+    color: black;
+    
 
 
 }
@@ -123,42 +520,68 @@ ul{ list-style-type: none;}
 
 
 
-
-
 @media(max-width: 740px)
 
 {
-    .a,.b,.c,.d,.e,.f{
+        .a,.b,.c,.d,.e,.f{
 
-        width: 50%;
-        margin-bottom: 30px;
-        text-align: center;
-    }
+            width: 50%;
+            margin-bottom: 30px;
+            text-align: center;
+        }
 
 
 }
 
 
 #new_p{ 
-      margin-bottom: 15px;
-      
-      text-align: right;
-    margin-right: 10px;
-    font-size: 12pt;
 
-    font:Mulish;
-font-family: Sans-serif;
+    font-size: 15pt;
+          
+       border: solid black 2Px;
+       display: flex;
+       flex-direction:right ;
+       align-content: end;
+text-align: end;
+flex-direction:right ;
+align-items: flex-end;
+align-items: end;
+justify-content: flex-end;
+
+margin-bottom: 20px;
 
 
 }
 
-
-
 #foot{
 
 
-margin-top: -20px;
-margin-bottom: 15px;
+    margin-top: -38px;
+    margin-bottom: 10px;
+}
+
+
+.foot_div{
+    font-size: 12pt;
+height: 60px;
+/* width: 80%; */
+    font:Mulish;
+font-family: Sans-serif;
+
+margin-bottom: 50px;
+
+/* border: orange solid 5px; */
+display: flex;
+align-content: end;
+text-align: end;
+flex-direction:right ;
+align-items: flex-end;
+align-items: end;
+justify-content: end;
+
+
+
+
 }
 
 
@@ -166,10 +589,3 @@ a{ font-weight: 550;}
 
 
 
-
-.asd{
-       height: 100%;
-       width: 100%;
-
-
-}
