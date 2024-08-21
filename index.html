@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buy Shoes Online for Men, Women & Kids | Upto 50% off | Mochi Shoes</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
    <!--Under this is Rohit's Part -->
@@ -32,7 +33,18 @@
                             <img src="https://www.mochishoes.com/_nuxt/img/user.3db7a04.svg" alt="login-logo">
                         </a>
                     </li>
+                    <!-- <li>
+                        <a href="#" class="cart">
+                            <img src="/images/cart.svg" alt="cart-logo">
+                        </a>
+                    </li> -->
                 </ul>
+            </div>
+            <div class="searchbox-parent">
+                <div class="searchbox">
+                    <input autocomplete="off" id="search" value type="text" placeholder="What are you looking for.." class="searchbar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
             </div>
         </div>
     </nav>
@@ -61,27 +73,118 @@
    <!--Under this is Navneeth's Part -->
    <!--Trying to create category part -->
     <div class="categories-container">
-        <h1 class="title">CATEGORIES</h1>
+        <h1 class="title1">CATEGORIES</h1>
         <div class="categories">
-            <div class="category">
+            <div class="categorynavu">
                 <img src="https://admin.mochishoes.com/banner/1710992028MEN-SHOES_MOCHI-SHOES_BANNER.jpg" alt="Men Shoes">
                 <p>MEN SHOES</p>
             </div>
-            <div class="category">
+            <div class="categorynavu">
                 <img src="https://admin.mochishoes.com/banner/1718347923CATEGORY-BANNER_MOCHI-SHOES_WEBSITE_WOMEN.jpg" alt="Pretty in Peach">
                 <p>PRETTY IN PEACH</p>
             </div>
-            <div class="category">
+            <div class="categorynavu">
                 <img src="https://admin.mochishoes.com/banner/1710992062KIDS-SHOES_MOCHI-SHOES_BANNER.jpg" alt="Kids Shoes">
                 <p>KIDS SHOES</p>
             </div>
-            <div class="category">
+            <div class="categorynavu">
                 <img src="https://admin.mochishoes.com/banner/1710992070ACCESSORIES_BAGS_MOCHI-SHOES_BANNER.jpg" alt="Accessories">
                 <p>ACCESSORIES</p>
             </div>
         </div>
     </div>
 
+    <!--html for shop by category -->
+
+    
+        <div class="categories-container">
+            <h1 class="title2">SHOP BY CATEGORIES</h1>
+            <div class="categories-tabs">
+                <a href="#" class="active">MEN</a>
+                <a href="#">WOMEN</a>
+                <a href="#">KIDS</a>
+                <a href="#">BAGS</a>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="https://www.mochishoes.com/images/imageforcat1/men-categories-mochi.webp" alt="Men Chappals">
+                    <h3>Men Chappals</h3>
+                    <p>Elevate Your Footwear Game</p>
+                    <a href="#" class="shop-btn">Shop Men Chappals</a>
+                </div>
+                <div class="category-card">
+                    <img src="https://www.mochishoes.com/images/imageforcat1/men-formal-shoes-mochi.webp" alt="Men Formal Shoes">
+                    <h3>Men Formal Shoes</h3>
+                    <p>Classic Elegance for Every Occasion</p>
+                    <a href="#" class="shop-btn">Shop Men Formal Shoes</a>
+                </div>
+                <div class="category-card">
+                    <img src="https://www.mochishoes.com/images/imageforcat1/men-sport-shoes.webp" alt="Men Sports Shoes">
+                    <h3>Men Sports Shoes</h3>
+                    <p>Unleash Your Athletic Potential</p>
+                    <a href="#" class="shop-btn">Shop Men Sports Shoes</a>
+                </div>
+                <div class="category-card">
+                    <img src="https://www.mochishoes.com/images/imageforcat1/men-ethnic-shoes-mochi.webp" alt="Men Ethnic Shoes">
+                    <h3>Men Ethnic Shoes</h3>
+                    <p>Embrace Traditional Style</p>
+                    <a href="#" class="shop-btn">Shop Men Ethnic Shoes</a>
+                </div>
+            </div>
+        </div>
+    
+
+
+  <!--html for our bestsellers -->
+
+  
+
+    <div class="bestsellers-container">
+        <h1 class="title3">OUR BESTSELLERS</h1>
+        <div class="bestsellers-grid">
+            <div class="product-card">
+                <div class="label">NEW</div>
+                <img src="https://admin.mochishoes.com/product/33-934/250/33-934-20-38-1.JPG" alt="Women Beige Casual Sandals">
+                <h3>Mochi</h3>
+                <p>Women Beige Casual Sandals</p>
+                <p class="price">Rs. 3,690.00</p>
+            </div>
+            <div class="product-card">
+                <div class="label">50% OFF</div>
+                <img src="https://admin.mochishoes.com/product/33-916/250/33-916-11-36-1.JPG" alt="Women Black Casual Sandals">
+                <h3>Mochi</h3>
+                <p>Women Black Casual Sandals</p>
+                <p class="price">
+                    Rs. 1,145.00 <span class="old-price">Rs. 2,290.00</span>
+                </p>
+            </div>
+            <div class="product-card">
+                <div class="label">50% OFF</div>
+                <img src="https://admin.mochishoes.com/product/40-254/250/40-254-11-36-1.JPG" alt="Women Black Casual Sandals">
+                <h3>Mochi</h3>
+                <p>Women Black Casual Sandals</p>
+                <p class="price">
+                    Rs. 1,345.00 <span class="old-price">Rs. 2,690.00</span>
+                </p>
+            </div>
+            <div class="product-card">
+                <div class="label">50% OFF</div>
+                <img src="https://admin.mochishoes.com/product/40-255/250/40-255-11-37-1.JPG" alt="Women Black Casual Sandals">
+                <h3>Mochi</h3>
+                <p>Women Black Casual Sandals</p>
+                <p class="price">
+                    Rs. 1,345.00 <span class="old-price">Rs. 2,690.00</span>
+                </p>
+            </div>
+            <div class="product-card">
+                <div class="label">NEW</div>
+                <img src="https://admin.mochishoes.com/product/41-259/250/41-259-91-36-1.JPG" alt="Women Rust Casual Sandals">
+                <h3>Mochi</h3>
+                <p>Women Rust Casual Sandals</p>
+                <p class="price">Rs. 2,290.00</p>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -109,49 +212,53 @@
 
    <section class="shoe-collection">
 <div>   
-    <h1>Elevate your fashion game with our collection of stylish shoes</h1>
+    <h1><span>Elevate your fashion game with our collection of stylish shoes</span></h1>
+</div>
+<div>   
     <p>Whether you are looking for formal shoes for a special occasion or casual ones to wear on a daily basis, you need stylish and comfortable footwear. Luckily, Mochi Shoes brings you an extensive collection of awesome footwear that will not only elevate your style but also make you feel confident!</p>
-
-    <h2>Explore a Diverse Collection of Shoes for Men, Women, and Kids</h2>
-    <p>Mochi Shoes is one of the most diverse shoe stores that continues to offer premium shoes with unmatchable style and unparalleled comfort. In our catalogue, we have curated a wide array of footwear, including the most traditional and contemporary styles that you can choose from. Let us go through this diverse range of shoes.</p>
+</div>
+<div>
+    <h3>Explore a Diverse Collection of Shoes for Men, Women, and Kids</h3>
+    <p><span>Mochi Shoes is one of the most diverse shoe stores that continues to offer premium shoes with unmatchable style and unparalleled comfort. In our catalogue, we have curated a wide array of footwear, including the most traditional and contemporary styles that you can choose from. Let us go through this diverse range of shoes.</span></p>
 </div>
     <div class="shoe-categories">
         <div class="category">
-            <h3>SHOES FOR MEN</h3>
-            <p>Our range of Mochi Men Shoes consists of sturdy boots for the winter, comfy slippers for the summer, and everything in between. This selection includes moccasins, loafers, as well as brogues for casual and formal occasions. For an ethnic affair, men can wear mojaris, chappals, Pathanis, and Kolhapuri shoes.</p>
+            <h2>
+                SHOES FOR MEN</h2>
+            <p>Our range of <strong>Mochi Men Shoes</strong></a> consists of sturdy boots for the winter, comfy slippers for the summer, and everything in between. This selection includes moccasins, loafers, as well as brogues for casual and formal occasions. For an ethnic affair, men can wear mojaris, chappals, Pathanis, and Kolhapuri shoes.</p>
         </div>
         <div class="category">
-            <h3>SHOES FOR WOMEN</h3>
+            <h2>SHOES FOR WOMEN</h2>
             <p>To create an aesthetic look with our Mochi Women Shoes, you can choose from a plethora of heels, flats, and high-top shoes. Our heel styles include wedges, stilettos, block heels, etc. If you are looking for formal shoes, we offer sandals, peep-toes, ballerinas, and many more such options.</p>
         </div>
         <div class="category">
-            <h3>SHOES FOR BOYS</h3>
+            <h2>SHOES FOR BOYS</h2>
             <p>Our Mochi Boys Shoes come in playful designs that will draw your little one into running and jumping around in them. We offer everything from casual sandals to sports sneakers in this collection. You can send your little one to tuition wearing floaters or slippers. For a school function, he can wear loafers or Derby shoes.</p>
         </div>
         <div class="category">
-            <h3>SHOES FOR GIRLS</h3>
+            <h2>SHOES FOR GIRLS</h2>
             <p>Our Mochi Girls shoes consist of slip-ons and sneakers for casual occasions. As for special events, your daughter can wear boots, ballerinas, and sandals. This selection features shoes with perforations as well as embellishments like flowers, ribbons, beads, etc.</p>
         </div>
     </div>
 
-    <h2>How to Style Shoes from Mochi Shoes?</h2>
+    <h3>How to Style Shoes from Mochi Shoes?</h3>
     <p>Mochi Shoes offers some of the best footwear when it comes to comfort and longevity. Moreover, there are a thousand different ways to style our premium footwear. Even if you have limited wardrobe options, you can make some interesting combinations with our fashionable shoes.</p>
 
     <div class="shoe-styles">
         <div class="style">
-            <h3>CASUAL SHOES:</h3>
+            <h2>CASUAL SHOES:</h2>
             <p>You can put on Y-strap slippers to hang out with your friends. Pair them with a T-shirt and shorts and you are good to go.</p>
         </div>
         <div class="style">
-            <h3>FORMAL SHOES:</h3>
+            <h2>FORMAL SHOES:</h2>
             <p>Men can wear formal moccasins with a shirt and trousers, whereas women can wear knee-length suits with peep-toes.</p>
         </div>
         <div class="style">
-            <h3>PARTY SHOES:</h3>
+            <h2>PARTY SHOES:</h2>
             <p>For a party, you can wear boots with denim jeans, a chequered shirt, and a leather jacket.</p>
         </div>
         <div class="style">
-            <h3>ETHNIC SHOES:</h3>
+            <h2>ETHNIC SHOES:</h2>
             <p>For a wedding, men can wear jutis with a Sherwani suit and women can wear mojaris with an Anarkali suit.</p>
         </div>
     </div>
@@ -171,151 +278,302 @@
    <!--Under this is Ankit's Part -->
 
 
-   <div id="all_content">
+
+   <section id="payment-section">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="a">
-        <p class="all_p">COLLECTION</p>          <br>
-        <ul>
-            <li> <a href="https://www.mochishoes.com/men-shoes">MEN SHOES</a></li>    <br>
-            <li> <a href="#">WOMEN SHOES</a></li>  <br>
-            <li> <a href="#">KIDS SHOES</a></li>   <br>
-            <li> <a href="#">ACCESSORIES</a></li>   <br>
-            <li> <a href="#">BAGS</a></li>           <br>  
-            <li> <a href="#">SHOES SALE</a></li>      <br>
-
-        </ul>
-    </div>
-
-
-
-
-
-
-
-
-
-
-    <div class="b">
-        <p class="all_p">CUSTOMER</p>          <br>
-        <ul>
-            <li> <a href="#">CONTACT US</a></li>  <br>
-            <li> <a href="#">SHOE CARE TIPS</a></li>   <br>
-            <li> <a href="#">FOOT CARE TIPS</a></li>   <br>
-            <li> <a href="#">BUYING GUIDE</a></li>   <br>  
-            <li> <a href="#">TRACK ORDER</a></li>   <br>
-            <li> <a href="#">BLOG</a></li>   <br>
-
-        </ul>
-    </div>
-
-
-
-
-
-
-
-
-
-
-    <div class="c">
-        <p class="all_p">KNOW US</p>             <br>
-        <ul>
-            <li> <a href="#">ABOUT US</a></li>         <br>
-            <li> <a href="#">CAREERS</a></li>           <br>
-            <li> <a href="#">FAQ'S</a></li>             <br>
-            <li> <a href="#">STORE LOCATOR</a></li>       <br>
-            <li> <a href="#">SITE MAP</a></li>             <br>
-
-        </ul>
-    </div>
-
-
-
-
+    <div class="payment-info">  
     
-
-
-
-    <div class="d">
-        <p class="all_p">POLICIES</p>                             <br>
-        <ul> 
-            <li> <a href="#">TERMS & CONDITIONS</a></li>          <br>
-            <li> <a href="#">SHIPPING & RETURN POLICY</a></li>     <br>
-            <li> <a href="#">PRIVACY POLICY</a></li>
-            
-        </ul>
+    
+    
+    
+    
+    
+    
+    <div class="payment-methods">
+        <p class="p1">PAY SECURELY BY</p> 
+    
+    
+    <br>
+        <img src="https://www.mochishoes.com/images-mochi/payment-logos-new-img.webp">
     </div>
-
-
-
-
-
-
-
-
-    <div class="e">
-        <p class="all_p">MY MOCHI</p>                        <br>
-        <ul>
-            <li> <a href="#">LOYALITY PROGRAM</a></li>          <br>
-            
-        </ul>
+    
+    
+    
+    
+    
+    <div class="return-policy"> 
+    <div class="img1">
+        <img   src="https://www.mochishoes.com/images-mochi/15-new-img.webp"></div>
+        <p class="p2">15 DAYS FREE RETURN*</p>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="f">
-        <p>PARTNERS</p>                             <br>
-        <ul>
-            <li> <a href="#">METRO SHOES</a></li>        <br>
-            <li> <a href="#">WALKWAY SHOE</a></li>         <br>
-            <li> <a href="#">FITFLOP</a></li>                 <br>
+    
+    
+    
+    
+    
+    <div class="delivery-info">
+    
+        <img class="img2" src="https://www.mochishoes.com/images-mochi/truck-new-img.webp">
+        <p class="p3">FREE DELIVERY*</p>
+        </div>
         
-        </ul>
+    
+    
+    
+        <div class="cash-on-delivery">
+            <img  class="img3" src="https://www.mochishoes.com/images-mochi/walet-new-img.webp">
+    
+            <p>CASH ON DELIVERY*</p>
+            </div>
+            
+    
+    
+    <!-- 
+            <div class="in5_div1">
+                <div class="aa"> <img class="bb"  src="https://cdn-icons-png.flaticon.com/256/1384/1384172.png"></div>
+                <div class="aab"><img class="bb" src="https://img.freepik.com/free-psd/social-media-logo-design_23-2151296987.jpg"></div>
+            </div>
+    -->
+    
+    
+    
+    <div class="social-media">
+    
+        
+    <p>Follow Us</p>
+     <div class="img_icon">
+       
+    
+        <a href="https://www.instagram.com/mochishoesin/"><img class="qqq" src="https://thumbs.dreamstime.com/b/new-instagram-camera-logo-icon-blue-vector-modern-gradient-design-illustrations-white-background-ai-138902744.jpg" alt="Instagram"></a>
+        <a href="https://www.facebook.com/mochishoesin/" ><img class="qqq" src="https://img.freepik.com/free-psd/social-media-logo-design_23-2151296987.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1724112000&semt=ais_hybrid" alt="Facebook"></a>   
+    
+        <a href="https://in.pinterest.com/mochishoes/" ><img class="qqq" src="https://i.pinimg.com/originals/49/5e/7e/495e7e5360eccd943346b83c75551ea8.jpg" 
+    alt="Pinterest"></a>
+        <a href="https://x.com/MochiShoesIN" ><img class="qqq" src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/channel/UCge8wM1Y_jUciFoKBbA3h-w" ><img class="qqq"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBMQWCa2chBeIDmW_rQMi8i_hid99r3ZRNurgVj9bsDMSc009--6XrseOo6_07nbBOM_4&usqp=CAU" alt="YouTube"></a>
+        </div>
+    <p>#StayAwesome</p>
+    
     </div>
+                
+                
+    
+    
+    
+               
+                    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    <br>
+    <hr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="all_content">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <div class="a">
+            <p class="all_p">COLLECTION</p>          <br>
+            <ul>
+                <li> <a href="https://www.mochishoes.com/men-shoes">MEN SHOES</a></li>    <br>
+                <li> <a href="https://www.mochishoes.com/women-shoes">WOMEN SHOES</a></li>  <br>
+                <li> <a href="https://www.mochishoes.com/kids-boys-girls-footwear-collection">KIDS SHOES</a></li>   <br>
+                <li> <a href="https://www.mochishoes.com/men-and-women-accessories">ACCESSORIES</a></li>   <br>
+                <li> <a href="https://www.mochishoes.com/bags">BAGS</a></li>           <br>  
+                <li> <a href="https://www.mochishoes.com/sale">SHOES SALE</a></li>      <br>
+    
+            </ul>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <div class="b">
+            <p class="all_p">CUSTOMER</p>          <br>
+            <ul>
+                <li> <a href="https://www.mochishoes.com/contact-us">CONTACT US</a></li>  <br>
+                <li> <a href="https://blog.mochishoes.com/category/shoe-care/">SHOE CARE TIPS</a></li>   <br>
+                <li> <a href="https://blog.mochishoes.com/category/foot-care/">FOOT CARE TIPS</a></li>   <br>
+                <li> <a href="https://www.mochishoes.com/page/buying-guide">BUYING GUIDE</a></li>   <br>  
+                <li> <a href="https://www.mochishoes.com/">TRACK ORDER</a></li>   <br>
+                <li> <a href="https://blog.mochishoes.com/">BLOG</a></li>   <br>
+    
+            </ul>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <div class="c">
+            <p class="all_p">KNOW US</p>             <br>
+            <ul>
+                <li> <a href="https://www.mochishoes.com/page/about-us">ABOUT US</a></li>         <br>
+                <li> <a href="https://metrobrands.com/career">CAREERS</a></li>           <br>
+                <li> <a href="https://www.mochishoes.com/page/faq">FAQ'S</a></li>             <br>
+                <li> <a href="https://store.mochishoes.com/">STORE LOCATOR</a></li>       <br>
+                <li> <a href="https://www.mochishoes.com/sitemap">SITE MAP</a></li>             <br>
+    
+            </ul>
+        </div>
+    
+    
+    
+    
+        
+    
+    
+    
+        <div class="d">
+            <p class="all_p">POLICIES</p>                             <br>
+            <ul> 
+                <li> <a href="https://www.mochishoes.com/page/terms-and-conditions">TERMS & CONDITIONS</a></li>          <br>
+                <li> <a href="https://www.mochishoes.com/page/shipping-and-return-policy">SHIPPING & RETURN POLICY</a></li>     <br>
+                <li> <a href="https://www.mochishoes.com/privacy-policy">PRIVACY POLICY</a></li>
+                
+            </ul>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+        <div class="e">
+            <p class="all_p">MY MOCHI</p>                        <br>
+            <ul>
+                <li> <a href="https://www.mochishoes.com/loyalty-program">LOYALITY PROGRAM</a></li>          <br>
+                
+            </ul>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <div class="f">
+            <p>PARTNERS</p>                             <br>
+            <ul>
+                <li> <a href="https://www.metroshoes.com/">METRO SHOES</a></li>        <br>
+                <li> <a href="https://walkwayshoes.com/">WALKWAY SHOE</a></li>         <br>
+                <li> <a href="https://fitflop.in/">FITFLOP</a></li>                 <br>
+            
+            </ul>
+        </div>
+    
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </section>
 
 
 
 
-
-
-</div>
-
-
-
-<footer id="foot">
-
-    <p id="new_p">© 2024 Metro Brands Limited. ALL RIGHTS RESERVED.</p>
-</footer>
-
-
-
-
-
+    <footer id="foot">
+    
+    
+    
+        <div class="foot_div">
+        <div id="new_p">© 2024 Metro Brands Limited. ALL RIGHTS RESERVED.</div>
+    
+    </div>
+    </footer>
 
 
 
