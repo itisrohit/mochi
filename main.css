@@ -1,22 +1,68 @@
+/* fonts */
+/* mulish font  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap'); 
+
+
+
+
+/* ------------------------------------------- */
+
 *{
 
   margin: 0;
   padding: 0;
   
   }
+  html{
+    overflow-x: hidden;
+  }
   body{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  
-  
-  
+    font-family: 'Mulish', sans-serif;
+ 
   }
 
 /* Under this is Rohit's Part  */
 
+.header{
+  background: white;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+  position: fixed;
+  top: 0;
+  padding: 0 0 15px;
+  width: 100%;
+  z-index: 9;
+}
 
+/* Style for the promotional banner section */
+.promo-bar{
+  background: black;
+  color: white;
+  top: 0;
+  padding: 4px 4px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  width: 100%;
+  text-transform: capitalize;
+  z-index: 1000;
+}
+.mochi-logo img{
+  margin-left: 18px;
+  height: 63.63px;
+  width: 215px;
 
+}
+
+a:-webkit-any-link{
+  cursor: pointer;
+}
+
+.login img{
+  height: 28px;
+  width: 28px;
+
+}
 
 
 
