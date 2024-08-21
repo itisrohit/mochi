@@ -301,8 +301,6 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  
-  background-color: #f9f9f9;
   font-family:'Mulish',sans-serif ;
 }
 
@@ -350,14 +348,14 @@ body {
   
   flex-wrap: wrap;
   justify-content: center;
-  padding: 15px;
+  padding: 10px;
   
 }
 .shoe-styles {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- padding: 15px;
+ padding: 10px;
 }
 
 .category,
@@ -378,11 +376,13 @@ body {
   color: #36c2dd;
   margin-bottom: 10px;
   font-size: 15px;
+  text-align: left;
 }
 
 .category p,
 .style p {
-  color: #636363;
+  border-top: 1px solid #c9c6c6;
+  color: #8e8e8e;
   font-family: 'Mulish',sans-serif;
   font-size: 13px;
   padding-left: 0px;
