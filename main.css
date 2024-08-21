@@ -23,6 +23,46 @@
 
 
 /* Under this is Navneeth's Part */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.categories-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category {
+  text-align: center;
+}
+
+.category img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.category p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 
 
 
