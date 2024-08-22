@@ -436,6 +436,16 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
   #payment-section{
 
       /* border: black solid 3px; */
@@ -475,7 +485,7 @@ body {
 
   .payment-methods{
 
-    border: green solid 2px;
+    /* border: green solid 2px; */
 
     height: 70%;
     width: 25%;
@@ -503,7 +513,7 @@ body {
 
  .return-policy{
 
-    border: green solid 2px;
+    /* border: green solid 2px; */
     height: 20%;
     width: 15%;
 
@@ -522,7 +532,7 @@ body {
 
  .delivery-info{
 
-    border: green solid 2px;
+    /* border: green solid 2px; */
     height: 30%;
     width: 13%;
 
@@ -538,7 +548,7 @@ body {
 
 .cash-on-delivery{
 
-    border: green solid 2px;
+    /* border: green solid 2px; */
     height: 30%;
     width: 14%;
     display: flex;
@@ -606,7 +616,7 @@ body {
 
 .return-policy , .delivery-info,     .cash-on-delivery{
     
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 25px 10px;
     border-spacing: x;
     margin-top: 10px;
