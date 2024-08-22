@@ -331,8 +331,6 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  
-  background-color: #f9f9f9;
   font-family:'Mulish',sans-serif ;
 }
 
@@ -380,14 +378,14 @@ body {
   
   flex-wrap: wrap;
   justify-content: center;
-  padding: 15px;
+  padding: 10px;
   
 }
 .shoe-styles {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- padding: 15px;
+ padding: 10px;
 }
 
 .category,
@@ -408,11 +406,13 @@ body {
   color: #36c2dd;
   margin-bottom: 10px;
   font-size: 15px;
+  text-align: left;
 }
 
 .category p,
 .style p {
-  color: #636363;
+  border-top: 1px solid #c9c6c6;
+  color: #5F5F5F;
   font-family: 'Mulish',sans-serif;
   font-size: 13px;
   padding-left: 0px;
@@ -428,6 +428,16 @@ body {
 
 
 /* Under this is Ankit's Part */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -475,7 +485,7 @@ body {
 
   .payment-methods{
 
-    border: green solid 2px;
+    /* border: green solid 2px; */
 
     height: 70%;
     width: 25%;
@@ -503,7 +513,7 @@ body {
 
  .return-policy{
 
-    border: green solid 2px;
+    /* border: green solid 2px; */
     height: 20%;
     width: 15%;
 
@@ -522,7 +532,7 @@ body {
 
  .delivery-info{
 
-    border: green solid 2px;
+    /* border: green solid 2px; */
     height: 30%;
     width: 13%;
 
@@ -538,7 +548,7 @@ body {
 
 .cash-on-delivery{
 
-    border: green solid 2px;
+    /* border: green solid 2px; */
     height: 30%;
     width: 14%;
     display: flex;
@@ -606,7 +616,7 @@ body {
 
 .return-policy , .delivery-info,     .cash-on-delivery{
     
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 25px 10px;
     border-spacing: x;
     margin-top: 10px;
