@@ -471,16 +471,23 @@ a:-webkit-any-link {
 .brand-logos {
   padding: 30px;
   display: flex;
-  justify-content: space-around;
-  gap: 0px;
-  
+  justify-content: center; /* Center the images horizontally */
+  flex-wrap: nowrap; /* Prevent wrapping to a new line */
+  gap: 10px; /* Adds space between images */
+  width: 1005px; /* Set the container width to 1005px */
+  margin: 0 auto; /* Center the container itself */
+  overflow: hidden; 
 }
 
 .brand-logos img {
-  height: 135px;
+  height: auto; /* Maintain aspect ratio based on width */
+  max-height: 135px; /* Set a maximum height */
+  width: calc((1005px - (10px * (number_of_images - 1))) / number_of_images); /* Adjust width to fit images in container */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  object-fit: contain; /* Prevents distortion */
 }
+
 
 
 /* css for instagram part by navaneeth */
