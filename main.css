@@ -83,7 +83,7 @@ a:-webkit-any-link{
 
 
 /* Under this is Navneeth's Part */
-/* CSS for first category*/
+/* CSS for first category Navaneeth*/
 
 .categories-container {
   text-align: center;
@@ -122,7 +122,7 @@ a:-webkit-any-link{
   font-weight: bold;
 }
 
-/*CSS for shop by category*/
+/*CSS for shop by category By navaneeth*/
 
 
 .categories-container {
@@ -207,7 +207,7 @@ a:-webkit-any-link{
   color: #fff;
 }
 
-/*CSS for our best sellers*/
+/*CSS for our best sellers by Navaneeth*/
 
 
 
@@ -288,10 +288,144 @@ a:-webkit-any-link{
   background-color: #ff6f61;
 }
 
+/* CSS for buttons above awesome brands heading by navaneeth */
+
+/* .awesome-brands {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px; 
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand-logos img {
+  height: 100px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+} */
+
+/* CSS for awesome brand logos by navaneeth */
+
+.awesome-brands{
+  font-family: "bebas-neue";
+  font-size: 60px;
+
+}
+
+/* .button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px; 
+} */
+
+.button-container button {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap value as needed */
+  margin-bottom: 0px;
+  display: inline-block;
+  padding: 12px 70px;
+  background-color: #e6f7ff; /* Light blue */
+  border: 1px solid #007bff; /* Darker blue border */
+  color: #fff; /* White text */
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+/* .button-container{
+  background-color: #007bff;
+  color: #fff;
+} */
+
+.awesome-brands {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  
+}
+
+.brand-logos {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 0px;
+  
+}
+
+.brand-logos img {
+  height: 135px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
 
 
+/* css for instagram part by navaneeth */
+.instagram-section {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.instagram-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
+.instagram-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.view-gallery-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
 
 
 
