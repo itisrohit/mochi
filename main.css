@@ -418,48 +418,38 @@ a:-webkit-any-link {
 } */
 
 /* CSS for awesome brand logos by navaneeth */
-
 .awesome-brands{
   font-family: "bebas-neue";
   font-size: 60px;
 
 }
 
-/* .button-container {
+
+
+.button-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  gap: 20px;
 }
 
-.button-container button {
-  background-color: #333;
-  color: white;
-  border: none;
+.custom-button {
   padding: 10px 20px;
+  border: 2px solid #00bfff;
+  background-color: transparent;
+  color: #00bfff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
   cursor: pointer;
-  margin-right: 10px; 
-} */
-
-.button-container button {
-  display: flex;
-  justify-content: center;
-  gap: 10px; /* Adjust the gap value as needed */
-  margin-bottom: 0px;
-  display: inline-block;
-  padding: 12px 70px;
-  background-color: #e6f7ff; /* Light blue */
-  border: 1px solid #007bff; /* Darker blue border */
-  color: #fff; /* White text */
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* .button-container{
-  background-color: #007bff;
+.custom-button:hover {
+  background-color: #00bfff;
   color: #fff;
-} */
+}
+
+
 
 .awesome-brands {
   text-align: center;
@@ -471,16 +461,23 @@ a:-webkit-any-link {
 .brand-logos {
   padding: 30px;
   display: flex;
-  justify-content: space-around;
-  gap: 0px;
-  
+  justify-content: center; /* Center the images horizontally */
+  flex-wrap: nowrap; /* Prevent wrapping to a new line */
+  gap: 10px; /* Adds space between images */
+  width: 1005px; /* Set the container width to 1005px */
+  margin: 0 auto; /* Center the container itself */
+  overflow: hidden; 
 }
 
 .brand-logos img {
-  height: 135px;
+  height: auto; /* Maintain aspect ratio based on width */
+  max-height: 135px; /* Set a maximum height */
+  width: calc((1005px - (10px * (number_of_images - 1))) / number_of_images); /* Adjust width to fit images in container */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  object-fit: contain; /* Prevents distortion */
 }
+
 
 
 /* css for instagram part by navaneeth */
@@ -522,17 +519,14 @@ a:-webkit-any-link {
 }
 
 
-
-
-
 /* Under this is Sajin's Part */
-
 
 
 .shoe-collection {
   max-width: 100%;
   margin:auto;
   padding: 20px;
+  height: 28.6cm;
   background-color: #fff;
 }
 
@@ -546,7 +540,6 @@ a:-webkit-any-link {
 }
 
 .shoe-collection p {
-  
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -569,7 +562,6 @@ a:-webkit-any-link {
 
 .shoe-categories{
   display: flex;
-  
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
@@ -584,7 +576,6 @@ a:-webkit-any-link {
 
 .category,
 .style {
-  
   flex:1;
   max-width: 25%;
   margin: 10px;
@@ -613,11 +604,21 @@ a:-webkit-any-link {
   padding-right: 0px;
 }
 
+.view-more-btn {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 13px;
+  color: #36c2dd;
+  text-decoration: none;
+  border: 1px solid #36c2dd;
+  transition: background-color 0.3s, color 0.3s;
 
+}
 
-
-
-
+.view-more-btn:hover {
+  background-color: #36c2dd;
+  color: #fff;
+}
 
 
 
@@ -1047,7 +1048,7 @@ justify-content: end;
 }
 
 
-a{ font-weight: 550;}
+
 
 
 
